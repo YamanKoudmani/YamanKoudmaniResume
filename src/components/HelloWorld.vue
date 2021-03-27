@@ -1,7 +1,12 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>{{ bio }}</p>
+  <div class="parentContainer">
+    <div class="container">
+      <h1>{{ msg }}</h1>
+      <p>{{ bio }}</p>
+    </div>
+    <div class="container">
+      <img src="https://raw.githubusercontent.com/YamanKoudmani/YamanKoudmani/master/src/assets/Yaman.jpg">
+    </div>
   </div>
 </template>
 
@@ -18,8 +23,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h1 {
-  margin: 40px 0 0;
-  display: inline;
+  margin: 20px;
 }
 
 ul {
@@ -29,9 +33,6 @@ ul {
 li {
   display: inline-block;
   margin: 0 10px;
-}
-p {
-  margin: 50px auto 50px auto;
 }
 a {
   color: #42b983;
