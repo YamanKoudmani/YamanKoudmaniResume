@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "core-js": "^3.9.1",
-    "vue": "^2.6.12"
+    "vue": "^2.6.12",
+    "vue-pdf": "^4.2.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.12",

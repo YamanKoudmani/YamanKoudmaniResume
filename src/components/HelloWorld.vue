@@ -2,10 +2,10 @@
   <div class="parentContainer">
     <div class="container">
       <h1>{{ msg }}</h1>
-      <p>{{ bio }}</p>
+      <p><span v-html="bio"></span></p>
     </div>
     <div class="container">
-      <img src="https://raw.githubusercontent.com/YamanKoudmani/YamanKoudmani/master/src/assets/Yaman.jpg">
+      <img src="https://raw.githubusercontent.com/YamanKoudmani/YamanKoudmani/master/src/assets/Yaman.jpg" alt="Yaman Koudmani">
     </div>
   </div>
 </template>
@@ -25,7 +25,10 @@ export default {
 h1 {
   margin: 20px;
 }
-
+p {
+  font-size: large;
+  text-align: left;
+}
 ul {
   list-style-type: none;
   padding: 0;
