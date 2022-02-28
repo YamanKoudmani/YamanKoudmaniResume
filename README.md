@@ -1,5 +1,11 @@
-# hello-world
+# College Student Rating and Recommendation Service Concept
 
+Example implementation of a clear website for submitting course and service reviews for Knox, built using Vue, Flask, and Mongo, based on Vue starter project (see below).
+By Yaman Koudmani, Kartikay Bhuchar, Mujtaba Hassan, and Tuan Nguyen.
+
+
+![Screenshot](https://i.ibb.co/8M11H3p/Search-Page.png)
+![Screenshot](https://i.ibb.co/wwqpwNJ/Reviews-Example.png)
 ## Project setup
 ```
 npm install
